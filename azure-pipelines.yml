@@ -8,8 +8,6 @@ trigger:
 
 pool:
   name: 'AgenteSQM'
-  demands:
-   - agent.name -equals 'VM-ANDRESI'
 
 variables:
   solution: '**/*.sln'

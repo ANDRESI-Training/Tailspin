@@ -7,7 +7,9 @@ trigger:
 - main
 
 pool:
-  vmImage: 'AgenteSQM'
+  name: 'AgenteSQM'
+  demands:
+   - agent.name -equals 'VM-ANDRESI'
 
 variables:
   solution: '**/*.sln'
